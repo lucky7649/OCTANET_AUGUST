@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">OCTANET</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Welcome to Your Future</h2>
+            <p class="hero-text">Discover the possibilities with our cutting-edge solutions.</p>
+            <a href="#services" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are a forward-thinking company dedicated to bringing innovative solutions to life. Our team of experts is here to help you every step of the way.</p>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Academic Counseling</h3>
+                <p>Get personalized advice on your academic path and course selections.</p>
+            </div>
+            <div class="service-card">
+                <h3>Career Guidance</h3>
+                <p>Explore career options and get support for your future career plans.</p>
+            </div>
+            <div class="service-card">
+                <h3>Extracurricular Activities</h3>
+                <p>Discover various extracurricular activities to enrich your college experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 octanet. All rights reserved Terms and condition.</p>
+    </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const ctaButton = document.querySelector('.cta-button');
+    ctaButton.addEventListener('click', function() {
+        alert('You clicked the Get Started button!');
+    });
+});
+</script>
+</body>
+</html>
